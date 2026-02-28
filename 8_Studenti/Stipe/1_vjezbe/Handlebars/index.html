@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars Primjer</title>
+</head>
+<body>
+
+    <!-- Handlebars template -->
+    <script id="template" type="text/x-handlebars-template">
+        <h1>{{naslov}}</h1>
+        <p>{{opis}}</p>
+    </script>
+
+    <div id="content"></div> <!-- Mjesto gdje će se ubaciti generirani HTML -->
+
+    <!-- Učitavanje Handlebars biblioteke -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="script.js"></script> <!-- Na kraju, kako bi se osiguralo da se Handlebars učitao -->
+
+</body>
+</html>

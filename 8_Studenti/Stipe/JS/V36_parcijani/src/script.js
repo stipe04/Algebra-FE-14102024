@@ -21,7 +21,7 @@ export default () => {
 
             const inputElementValue = inputElement.value.trim();
 
-            inputElement.value = "";
+            //inputElement.value = "";
 
             while(ulElement.firstChild){
                 ulElement.removeChild(ulElement.firstChild);

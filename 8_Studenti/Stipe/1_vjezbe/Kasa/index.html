@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kasa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Kasa</h1>
+
+  <!-- Dodavanje proizvoda -->
+  <section>
+    <h2>Dodaj proizvod</h2>
+    <input type="text" id="productName" placeholder="Naziv proizvoda" />
+    <input type="number" id="productPrice" placeholder="Cijena (EUR)" />
+    <button onclick="addProduct()">Dodaj</button>
+  </section>
+
+  <!-- Lista proizvoda -->
+  <section>
+    <h2>Proizvodi</h2>
+    <ul id="productList"></ul>
+  </section>
+
+  <!-- Dodavanje kupaca -->
+  <section>
+    <h2>Dodaj kupca</h2>
+    <input type="text" id="customerName" placeholder="Ime kupca" />
+    <button onclick="addCustomer()">Dodaj</button>
+  </section>
+
+  <!-- Lista kupaca -->
+  <section>
+    <h2>Kupci</h2>
+    <ul id="customerList"></ul>
+  </section>
+
+  <!-- Račun -->
+  <section>
+    <h2>Izdaj račun</h2>
+    <select id="customerSelect"></select>
+    <button onclick="issueReceipt()">Izdaj račun</button>
+    <div id="receiptOutput"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

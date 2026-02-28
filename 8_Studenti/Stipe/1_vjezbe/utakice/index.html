@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportske Utakmice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nogometne Utakmice</h1>
+        <div class="filter">
+            <label for="liga">Odaberite ligu:</label>
+            <select id="liga">
+                <option value="sve">Sve lige</option>
+                <option value="spanjolska">Španjolska La Liga</option>
+                <option value="njemacka">Njemačka Bundesliga</option>
+                <option value="italija">Italijanska Serie A</option>
+            </select>
+        </div>
+        <div class="days">
+            <div class="day" data-day="ponedjeljak">
+                <h2>Ponedjeljak</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="utorak">
+                <h2>Utorak</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="srijeda">
+                <h2>Srijeda</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="cetvrtak">
+                <h2>Četvrtak</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="petak">
+                <h2>Petak</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="subota">
+                <h2>Subota</h2>
+                <div class="matches"></div>
+            </div>
+            <div class="day" data-day="nedjelja">
+                <h2>Nedjelja</h2>
+                <div class="matches"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
