@@ -1,0 +1,13 @@
+{
+  "name": "Stipe Web Studio",
+  "short_name": "Stipe Web",
+  "description": "Izrada modernih web stranica za obrte i firme u Hrvatskoj.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "lang": "hr",
+  "icons": [
+    { "src": "./images/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
